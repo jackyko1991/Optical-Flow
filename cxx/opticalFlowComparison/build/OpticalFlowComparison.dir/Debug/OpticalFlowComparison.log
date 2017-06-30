@@ -1,0 +1,34 @@
+﻿  main.cxx
+d:\msvc-sources\opencv\modules\flann\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+i:\optical flow\code\cxx\opticalflowcomparison\Stochastic.h(11): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+i:\optical flow\code\cxx\opticalflowcomparison\NoiseModel.h(6): warning C4005: 'PI': macro redefinition
+  i:\optical flow\code\cxx\opticalflowcomparison\Stochastic.h(16): note: see previous definition of 'PI'
+I:\optical flow\code\cxx\opticalFlowComparison\main.cxx(376): warning C4101: 'largestLabelIdx': unreferenced local variable
+I:\optical flow\code\cxx\opticalFlowComparison\main.cxx(437): warning C4102: 'cv': unreferenced label
+i:\optical flow\code\cxx\opticalflowcomparison\Image.h(823): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+  i:\optical flow\code\cxx\opticalflowcomparison\Image.h(821): note: while compiling class template member function 'bool Image<double>::saveImage(std::ofstream &) const'
+  I:\optical flow\code\cxx\opticalFlowComparison\OpticalFlow.h(68): note: see reference to class template instantiation 'Image<double>' being compiled
+i:\optical flow\code\cxx\opticalflowcomparison\Image.h(863): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(562): note: see declaration of 'strcmpi'
+  i:\optical flow\code\cxx\opticalflowcomparison\Image.h(849): note: while compiling class template member function 'bool Image<double>::loadImage(std::ifstream &)'
+i:\optical flow\code\cxx\opticalflowcomparison\Image.h(864): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+i:\optical flow\code\cxx\opticalflowcomparison\Image.h(865): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(562): note: see declaration of 'strcmpi'
+i:\optical flow\code\cxx\opticalflowcomparison\Image.h(866): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+i:\optical flow\code\cxx\opticalflowcomparison\Image.h(867): warning C4996: 'strcmpi': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strcmpi. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(562): note: see declaration of 'strcmpi'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xutility(2372): warning C4996: 'std::copy::_Unchecked_iterators::_Deprecate': Call to 'std::copy' with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xutility(2372): note: see declaration of 'std::copy::_Unchecked_iterators::_Deprecate'
+  d:\msvc-sources\itk\insighttoolkit-4.9.1\modules\io\imagebase\include\itkImageFileReader.hxx(441): note: see reference to function template instantiation '_OutIt *std::copy<const float*,float*>(_InIt,_InIt,_OutIt)' being compiled
+          with
+          [
+              _OutIt=float *,
+              _InIt=const float *
+          ]
+  d:\msvc-sources\itk\insighttoolkit-4.9.1\modules\io\imagebase\include\itkImageFileReader.hxx(353): note: while compiling class template member function 'void itk::ImageFileReader<Image3DType,itk::DefaultConvertPixelTraits<float>>::GenerateData(void)'
+  I:\optical flow\code\cxx\opticalFlowComparison\main.cxx(407): note: see reference to class template instantiation 'itk::ImageFileReader<Image3DType,itk::DefaultConvertPixelTraits<float>>' being compiled
+  OpticalFlowComparison.vcxproj -> I:\optical flow\code\cxx\opticalFlowComparison\build\Debug\OpticalFlowComparison.exe

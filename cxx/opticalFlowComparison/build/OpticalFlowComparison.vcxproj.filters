@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="I:\optical flow\code\cxx\opticalFlowComparison\main.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\optical flow\code\cxx\opticalFlowComparison\GaussianPyramid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\optical flow\code\cxx\opticalFlowComparison\OpticalFlow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I:\optical flow\code\cxx\opticalFlowComparison\Stochastic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="I:\optical flow\code\cxx\opticalFlowComparison\GaussianPyramid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="I:\optical flow\code\cxx\opticalFlowComparison\Image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="I:\optical flow\code\cxx\opticalFlowComparison\ImageIO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="I:\optical flow\code\cxx\opticalFlowComparison\ImageProcessing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="I:\optical flow\code\cxx\opticalFlowComparison\Matrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="I:\optical flow\code\cxx\opticalFlowComparison\NoiseModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="I:\optical flow\code\cxx\opticalFlowComparison\OpticalFlow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="I:\optical flow\code\cxx\opticalFlowComparison\project.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="I:\optical flow\code\cxx\opticalFlowComparison\Stochastic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="I:\optical flow\code\cxx\opticalFlowComparison\Vector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="I:\optical flow\code\cxx\opticalFlowComparison\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{98FB0CA5-5B8E-3A26-9B73-EE407F9B95B0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{00F1834C-C360-33BA-BD30-F4E29350FE06}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

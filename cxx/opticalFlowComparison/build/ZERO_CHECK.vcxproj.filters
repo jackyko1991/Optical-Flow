@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="I:\optical flow\code\cxx\opticalFlowComparison\build\CMakeFiles\4b5ecc9026b83f371fc7fa777f879cec\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{BC2BC23E-ADEF-3415-894D-9444D7E98F23}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

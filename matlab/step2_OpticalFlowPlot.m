@@ -1,16 +1,12 @@
-data_folder = dir('I:\optical flow\data\30_fps\');
+data_folder = dir('I:\optical flow\optical flow\data\30_fps');
 
-for i = 3:3%(length(data_folder)-1)
+for i = 10:10%(length(data_folder)-1)
     patient = data_folder(i).name
-    path = 'I:\optical flow\data\30_fps\01_ChanLamNuen\';
-    savepath = ['I:\optical flow\data\30_fps\',patient,'\result\'];
+    path = 'I:\optical flow\optical flow\data\30_fps\',patient,'\';
+    savepath = ['I:\optical flow\optical flow\data\30_fps\',patient,'\result_1\'];
     load([savepath 'tmp.mat']);
     
 end
-
-
-
-
 
 ROI_num = 3;    %determine number of velocity profile ROIs
 ROI_disp_slice = 23;    %number of display slice
